@@ -25,7 +25,7 @@ conda install pytorch torchvision cudatoolkit=10.1
 
 pip3 install -r requirements.txt
 '''
-#### 4.示例运行
+#### 4.示例运行  
 '''
 python detect.py --source data/images --weights yolov5s.pt --conf 0.25
 '''
