@@ -6,6 +6,7 @@
 sudo bash Anaconda3-XXX.sh -f -b -p  /指定目录
 添加环境变量
 export PATH=/path/install/anaconda3/bin:$PATH
+source ~/.bashrc
 查看版本,出现对应版本号即安装成功
 conda --version
 '''
