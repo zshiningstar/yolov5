@@ -23,4 +23,5 @@
 云端GPU:google colab:  https://colab.research.google.com/?utm_source=scs-index
 * 上传yolov5代码压缩包,在里面解压: !unzip 名字 -d 路径
 * 安装:pip install -r requirments.txt
+* 加载tensorboard: %load_ext tensorboard
 
