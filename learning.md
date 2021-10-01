@@ -24,4 +24,13 @@
 * 上传yolov5代码压缩包,在里面解压: !unzip 名字 -d 路径
 * 安装:pip install -r requirments.txt
 * 加载tensorboard: %load_ext tensorboard
+* 启动tensorboard：%tensorboard --logdir=runs/train
+* 开始训练：!python train.py --rect（最后训练好的模型都在runs文件夹下）
 
+### 三.自制数据集并训练
+#### (1) 标注
+* 在线标注工具： https://www.makesense.ai/ 标注结束导出即可
+* 创建对应结构文件夹 ![image](https://user-images.githubusercontent.com/53174131/135563959-5dfac001-1fbf-4567-aaca-f61d5cc47a72.png)
+#### (2) yaml数据集文件创建
+* ----
+#### (3) 更改训练程序路径进行训练即可
