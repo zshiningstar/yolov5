@@ -32,5 +32,5 @@
 * 在线标注工具： https://www.makesense.ai/ 标注结束导出即可
 * 创建对应结构文件夹 ![image](https://user-images.githubusercontent.com/53174131/135563959-5dfac001-1fbf-4567-aaca-f61d5cc47a72.png)
 #### (2) yaml数据集文件创建
-* ----
+* -
 #### (3) 更改训练程序路径进行训练即可
