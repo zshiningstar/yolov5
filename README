@@ -32,3 +32,9 @@ pip3 install -r requirements.txt
 export PYTHONPATH=/home/star/.local/lib/python3.8/site-packages
 python detect.py --source data/images --view-img --weights yolov5s.pt --conf 0.25
 '''
+
+#### 5.调用笔记本自带摄像头检测
+'''
+export PYTHONPATH=/home/star/.local/lib/python3.8/site-packages
+python detect.py --source 0
+'''
