@@ -38,3 +38,8 @@ python detect.py --source data/images --view-img --weights yolov5s.pt --conf 0.2
 export PYTHONPATH=/home/star/.local/lib/python3.8/site-packages
 python detect.py --source 0
 '''
+
+#### 6.自动取消进入base环境
+'''
+conda config --set auto_activate_base false
+'''
