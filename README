@@ -16,6 +16,7 @@ conda --version
 
 #### 3.配置环境
 '''
+sudo chown -R username anaconda3    #username为自己的用户名
 conda create -n yolov5 python=3.8
 source activate
 conda activate yolov5
